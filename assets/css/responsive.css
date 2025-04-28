@@ -1,0 +1,128 @@
+/* Responsive Design */
+
+@media only screen and (max-width:1400px) {
+    .hero_img {
+        right: -161px;
+    }
+    .single_experience::after {
+        width: 189px;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .hero_img {
+        right: -161px;
+    }
+    #hero h1 {
+        font-size: 44px;
+    }
+    #hero .sub-title {
+        margin-top: 160px;
+    }
+    .hero_img_section .circle {
+        right: 80px;
+    }
+    .hero_img {
+        right: -130px;
+        height: auto;
+    }
+    .hero_exp {
+        right: -25px;
+    }
+    .hero_exp img {
+        width: 250px;
+    }
+    .hero_exp_text {
+        right: 76px;
+        bottom: 84px;
+    }
+    .hero_exp_text h3 {
+        font-size: 40px;
+    }
+    .hero_exp_text p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .skill-content {
+        padding-top: 0;
+    }
+    .single_experience::after {
+        width: 99px;
+    }
+    .contact-area {
+        background-position: 300px;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .chat_btn {
+        display: none;
+    }
+    .hero_img_section {
+        display: none;
+    }
+    #hero .sub-title {
+        margin-top: 145px;
+    }
+    .skill-content {
+        padding-bottom: 60px;
+    }
+    .single_experience::after {
+        background-image: inherit;
+        display: none;
+    }
+    .ver_line {
+        display: none;
+    }
+    .single_experience {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .single_experience.right_ex.mt_217.mb_240 {
+        margin-top: 0;
+    }
+    .contact-info.pt_170px {
+        padding-top: 70px;
+        padding-left: 0;
+    }
+    .contact-info {
+        padding-left: 0;
+    }
+    .contact-area {
+        padding: 50px 50px 25px;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    #main-menu {
+        display: none;
+    }
+    #mobile_menu {
+        display: block;
+        width: 100%;
+    }
+    #mobile_menu {
+        margin-top: -43px;
+    }
+    .slicknav_btn {
+        top: -24px;
+    }
+}
+
+@media only screen and (max-width:575px) {
+    #mobile_menu {
+        margin-top: -43px;
+    }
+    .slicknav_btn {
+        top: -24px;
+    }
+    .contact-area {
+        padding: 40px 30px 25px;
+    }
+    .contact-form {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 5px;
+    }
+}
