@@ -122,7 +122,7 @@
             ['<' + settings.parentTag + ' aria-haspopup="true" role="button" tabindex="0" class="' + prefix + '_btn ' + prefix + '_collapsed">',
                 '<span class="' + prefix + '_menutxt">' + settings.label + '</span>',
                 '<span class="' + iconClass + '">',
-                '<span class="' + prefix + '_nav_icon ti-menu"></span>',
+                '<span class="' + prefix + '_nav_icon fa fa-bars"></span>',
                 '</span>',
                 '</' + settings.parentTag + '>'
             ].join('')
